@@ -1,0 +1,7 @@
+{
+    "values": [
+        "#fireworks:events/fireworks_show",
+        "#fireworks:events/music",
+        "#fireworks:events/countdown"
+    ]
+}

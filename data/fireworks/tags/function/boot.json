@@ -1,0 +1,12 @@
+{
+    "values": [
+        "fireworks:settings/boot",
+        "fireworks:operations/boot",
+        "fireworks:operations/group.calendar/day_cycle/boot",
+        "fireworks:operations/group.calendar/year_cycle/boot",
+        "fireworks:operations/group.calendar/month_cycle/boot",
+        "fireworks:operations/group.clock/hour_cycle/military/boot",
+        "fireworks:operations/group.clock/hour_cycle/civil/boot",
+        "fireworks:operations/group.clock/minute_cycle/boot"
+    ]
+}
