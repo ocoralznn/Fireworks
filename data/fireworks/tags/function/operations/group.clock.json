@@ -1,0 +1,8 @@
+{
+    "values": [
+        "fireworks:operations/group.clock/return.can_update/",
+        "fireworks:operations/group.clock/hour_cycle/military/",
+        "fireworks:operations/group.clock/hour_cycle/civil/",
+        "fireworks:operations/group.clock/minute_cycle/"
+    ]
+}
