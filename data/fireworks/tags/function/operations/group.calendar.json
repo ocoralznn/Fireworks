@@ -1,0 +1,8 @@
+{
+    "values": [
+        "fireworks:operations/group.calendar/return.can_update/",
+        "fireworks:operations/group.calendar/day_cycle/",
+        "fireworks:operations/group.calendar/year_cycle/",
+        "fireworks:operations/group.calendar/month_cycle/"
+    ]
+}

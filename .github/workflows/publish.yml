@@ -1,0 +1,35 @@
+name: Publish to Modrinth
+on:
+  release:
+    types: [published]
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Zip Datapack
+        run: zip -r Fireworks.zip . -x ".github/*" ".git/*" "*.yml" "README.md" "assets/*" # Package files into .zip
+
+      - name: Zip Resourcepack
+        run: zip -r Fireworks Assets.zip . -x ".github/*" ".git/*" "*.yml" "README.md" "data/*" "Fireworks.zip" # Package files into .zip
+
+      - name: Upload to Modrinth
+        uses: cloudnode-pro/modrinth-publish@v2
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          project: "yFGB1mRk"
+          vname: ${{ github.event.release.name }}
+          version: ${{ github.event.release.tag_name }}
+          changelog: ${{ github.event.release.body }}
+          files: |-
+            "Fireworks.zip"
+            "Fireworks Assets.zip"
+          primary-file: "Fireworks.zip"
+          file-types: Fireworks Assets.zip=optional-resource-pack
+          loaders: "datapack"
+          game-versions: |-
+            26.1-snapshot-6
+          channel: "release"
