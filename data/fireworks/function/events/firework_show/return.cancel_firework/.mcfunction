@@ -11,3 +11,8 @@ execute \
         type=#fireworks:denies_fireworks,\
         distance=..8 \
     ] run return 1
+
+execute \
+    if score \
+        $hours.current.military fireworks.operations matches 5.. \
+            run return 1
