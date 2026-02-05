@@ -1,0 +1,36 @@
+name: Bug Report
+description: File a bug report to help us improve Fireworks!
+title: "[BUG] "
+labels: ["bug", "triage"]
+assignees: ["ocoralznn"]
+body:
+  - type: markdown
+    attributes:
+      content: "Thanks for taking the time to fill out this bug report!"
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version of Fireworks are you running?
+      placeholder: "e.g. 2.0"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Describe the exact steps to reproduce the behavior.
+      placeholder: "1. Go to ...\n2. Click on ...\n3. See error"
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Low
+        - Medium
+        - High
+      default: 1 # Option at index 1 is "Medium"
+    validations:
+      required: true
