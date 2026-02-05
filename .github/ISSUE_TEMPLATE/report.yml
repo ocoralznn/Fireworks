@@ -6,7 +6,7 @@ assignees: ["ocoralznn"]
 body:
   - type: markdown
     attributes:
-      content: "Thanks for taking the time to fill out this bug report!"
+      value: "Thanks for taking the time to fill out this bug report!"
   - type: input
     id: version
     attributes:
