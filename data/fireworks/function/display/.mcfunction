@@ -64,7 +64,7 @@ $execute \
                     ]\
                 },\
                 {\
-                    translate:"clock.suffix.$(clock_suffix_index)",\
+                    translate:"clock.suffix.$(clock_suffix)",\
                     fallback:"$(clock_suffix)"\
                 },\
                 {\
