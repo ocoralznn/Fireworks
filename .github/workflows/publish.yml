@@ -21,13 +21,13 @@ jobs:
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
           project: "yFGB1mRk"
-          vname: ${{ github.event.release.name }}
+          name: ${{ github.event.release.name }}
           version: ${{ github.event.release.tag_name }}
           changelog: ${{ github.event.release.body }}
           files: |-
             "Fireworks.zip"
             "Fireworks Translation.zip"
-          primary-file: "Fireworks.zip"
+          primary-file: Fireworks.zip
           file-types: Fireworks Translation.zip=optional-resource-pack
           loaders: "datapack"
           game-versions: |-
