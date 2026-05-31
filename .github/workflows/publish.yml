@@ -28,7 +28,7 @@ jobs:
             "Fireworks.zip"
             "Fireworks Translation.zip"
           primary-file: "Fireworks.zip"
-          file-types: "Fireworks Translation.zip"=optional-resource-pack
+          file-types: Fireworks Translation.zip=optional-resource-pack
           loaders: "datapack"
           game-versions: |-
             26.1-snapshot-6
