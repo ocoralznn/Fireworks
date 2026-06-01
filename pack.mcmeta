@@ -4,20 +4,27 @@
 		"max_format": [107, 0],
 		"description": [
 			{
-				"text":"Fireworks",
-				"color":"#493ee2"
+				"text":"Let the celebration begin!",
+				"color":"#FF960C"
 			},
+			"\n",
 			{
-				"text":" | ",
+				"text":"ғɪʀᴇᴡᴏʀᴋs ʀᴇsᴏᴜʀᴄᴇs",
+				"color":"dark_gray"
+			},
+			" ",
+			{
+				"text":"✨",
+				"color":"gray"
+			},
+			" ",
+			{
+				"text":"v",
 				"color":"dark_gray"
 			},
 			{
-				"text":"v",
-				"color":"white"
-			},
-			{
 				"text":"2.0",
-				"color":"white"
+				"color":"dark_gray"
 			}
 		]
 	}
