@@ -4,9 +4,9 @@ execute \
 	at @a \
 	at @e[ \
 		type=!#fireworks:denies_fireworks,\
-		distance=64..128, \
+		distance=48..128, \
 		sort=random, \
-		limit=8 \
+		limit=16 \
 	] \
 	align xyz \
 	positioned over world_surface \

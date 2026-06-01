@@ -3,4 +3,4 @@ execute \
         as @a \
         at @s \
             run playsound \
-                minecraft:music.credits ambient @s ~ ~ ~ 1 2 1
+                minecraft:music.credits ambient @s ~ ~ ~ 0.6 2 1

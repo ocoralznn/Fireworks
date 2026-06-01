@@ -31,5 +31,5 @@ jobs:
           file-types: Fireworks-translation.zip=optional-resource-pack
           loaders: "datapack"
           game-versions: |-
-            26.1-snapshot-6
+            26.2-pre-2
           channel: "release"
