@@ -4,10 +4,6 @@ execute \
             run time \
                 query minecraft:day repetition
 
-scoreboard \
-    players operation \
-        $days.current fireworks.operations += #days.step.0 fireworks.operations
-
 execute \
     unless score \
         $hours.current.military fireworks.operations matches 6.. \
@@ -17,3 +13,7 @@ execute \
 
 function \
     fireworks:operations/group.calendar/day_cycle/set.name/
+
+scoreboard \
+    players operation \
+        $days.current fireworks.operations += #days.step.0 fireworks.operations

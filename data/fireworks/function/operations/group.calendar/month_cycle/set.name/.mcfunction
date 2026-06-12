@@ -4,9 +4,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        months_name:"January",\
-                        months_name_shortened:"Jan",\
-                        months_name_index:"january"\
+                        full_month_name:"January",\
+                        abbreviated_month_name:"Jan",\
+                        month_name_key:"january"\
                     }
 execute \
     if score \
@@ -14,9 +14,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        months_name:"February",\
-                        months_name_shortened:"Feb",\
-                        months_name_index:"february"\
+                        full_month_name:"February",\
+                        abbreviated_month_name:"Feb",\
+                        month_name_key:"february"\
                     }
 execute \
     if score \
@@ -24,9 +24,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        months_name:"March",\
-                        months_name_shortened:"Mar",\
-                        months_name_index:"march"\
+                        full_month_name:"March",\
+                        abbreviated_month_name:"Mar",\
+                        month_name_key:"march"\
                     }
 execute \
     if score \
@@ -34,9 +34,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        months_name:"April",\
-                        months_name_shortened:"Apr",\
-                        months_name_index:"april"\
+                        full_month_name:"April",\
+                        abbreviated_month_name:"Apr",\
+                        month_name_key:"april"\
                     }
 execute \
     if score \
@@ -44,9 +44,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        months_name:"May",\
-                        months_name_shortened:"May",\
-                        months_name_index:"may"\
+                        full_month_name:"May",\
+                        abbreviated_month_name:"May",\
+                        month_name_key:"may"\
                     }
 execute \
     if score \
@@ -54,9 +54,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        months_name:"June",\
-                        months_name_shortened:"Jun",\
-                        months_name_index:"june"\
+                        full_month_name:"June",\
+                        abbreviated_month_name:"Jun",\
+                        month_name_key:"june"\
                     }
 execute \
     if score \
@@ -64,9 +64,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        months_name:"July",\
-                        months_name_shortened:"Jul",\
-                        months_name_index:"july"\
+                        full_month_name:"July",\
+                        abbreviated_month_name:"Jul",\
+                        month_name_key:"july"\
                     }
 execute \
     if score \
@@ -74,9 +74,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        months_name:"August",\
-                        months_name_shortened:"Aug",\
-                        months_name_index:"august"\
+                        full_month_name:"August",\
+                        abbreviated_month_name:"Aug",\
+                        month_name_key:"august"\
                     }
 execute \
     if score \
@@ -84,9 +84,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        months_name:"September",\
-                        months_name_shortened:"Sep",\
-                        months_name_index:"september"\
+                        full_month_name:"September",\
+                        abbreviated_month_name:"Sep",\
+                        month_name_key:"september"\
                     }
 execute \
     if score \
@@ -94,9 +94,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        months_name:"October",\
-                        months_name_shortened:"Oct",\
-                        months_name_index:"october"\
+                        full_month_name:"October",\
+                        abbreviated_month_name:"Oct",\
+                        month_name_key:"october"\
                     }
 execute \
     if score \
@@ -104,9 +104,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        months_name:"November",\
-                        months_name_shortened:"Nov",\
-                        months_name_index:"november"\
+                        full_month_name:"November",\
+                        abbreviated_month_name:"Nov",\
+                        month_name_key:"november"\
                     }
 execute \
     if score \
@@ -114,7 +114,7 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        months_name:"December",\
-                        months_name_shortened:"Dec",\
-                        months_name_index:"december"\
+                        full_month_name:"December",\
+                        abbreviated_month_name:"Dec",\
+                        month_name_key:"december"\
                     }

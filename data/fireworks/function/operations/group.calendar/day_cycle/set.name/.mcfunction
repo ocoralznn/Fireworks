@@ -12,9 +12,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        days_name:"Sunday",\
-                        days_name_shortened:"Sun",\
-                        days_name_index:"sunday"\
+                        full_weekday_name:"Sunday",\
+                        abbreviated_weekday_name:"Sun",\
+                        weekday_name_key:"sunday"\
                     }
 execute \
     if score \
@@ -22,9 +22,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        days_name:"Monday",\
-                        days_name_shortened:"Mon",\
-                        days_name_index:"monday"\
+                        full_weekday_name:"Monday",\
+                        abbreviated_weekday_name:"Mon",\
+                        weekday_name_key:"monday"\
                     }
 execute \
     if score \
@@ -32,9 +32,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        days_name:"Tuesday",\
-                        days_name_shortened:"Tue",\
-                        days_name_index:"tuesday"\
+                        full_weekday_name:"Tuesday",\
+                        abbreviated_weekday_name:"Tue",\
+                        weekday_name_key:"tuesday"\
                     }
 execute \
     if score \
@@ -42,9 +42,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        days_name:"Wednesday",\
-                        days_name_shortened:"Wed",\
-                        days_name_index:"wednesday"\
+                        full_weekday_name:"Wednesday",\
+                        abbreviated_weekday_name:"Wed",\
+                        weekday_name_key:"wednesday"\
                     }
 execute \
     if score \
@@ -52,9 +52,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        days_name:"Thursday",\
-                        days_name_shortened:"Thu",\
-                        days_name_index:"thursday"\
+                        full_weekday_name:"Thursday",\
+                        abbreviated_weekday_name:"Thu",\
+                        weekday_name_key:"thursday"\
                     }
 execute \
     if score \
@@ -62,9 +62,9 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        days_name:"Friday",\
-                        days_name_shortened:"Fri",\
-                        days_name_index:"friday"\
+                        full_weekday_name:"Friday",\
+                        abbreviated_weekday_name:"Fri",\
+                        weekday_name_key:"friday"\
                     }
 execute \
     if score \
@@ -72,7 +72,7 @@ execute \
             run data \
                 merge storage \
                     fireworks:definitions {\
-                        days_name:"Saturday",\
-                        days_name_shortened:"Sat",\
-                        days_name_index:"saturday"\
+                        full_weekday_name:"Saturday",\
+                        abbreviated_weekday_name:"Sat",\
+                        weekday_name_key:"saturday"\
                     }
