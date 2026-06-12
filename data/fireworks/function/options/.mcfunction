@@ -3,7 +3,4 @@ function \
 
 function \
     fireworks:settings/root \
-        with storage fireworks:definitions settings
-
-function \
-    fireworks:settings/set.options_screen/branch_0
+        with storage fireworks:definitions options
