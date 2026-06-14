@@ -1,0 +1,538 @@
+[
+    {
+        "identifier": "fireworks.title",
+        "source_string": "Fireworks",
+        "translation": "Fireworks",
+        "context": " -> fireworks.title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.actionbar",
+        "source_string": "%1$s, %2$s | %3$s",
+        "translation": "%1$s, %2$s | %3$s",
+        "context": " -> fireworks.actionbar",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.chat.morning",
+        "source_string": "Good morning! Today is %2$s, what a lovely %1$s! Have fun with your day, and remember: Mine with caution, craft with care.",
+        "translation": "Good morning! Today is %2$s, what a lovely %1$s! Have fun with your day, and remember: Mine with caution, craft with care.",
+        "context": " -> fireworks.chat.morning",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.chat.evening",
+        "source_string": "Good evening. It's %2$s, an awesome %1$s! Have a nice rest, and remember: Sleep every day to keep the phantoms away!",
+        "translation": "Good evening. It's %2$s, an awesome %1$s! Have a nice rest, and remember: Sleep every day to keep the phantoms away!",
+        "context": " -> fireworks.chat.evening",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.general.today",
+        "source_string": "%1$s",
+        "translation": "%1$s",
+        "context": " -> fireworks.general.today",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.today.weekday_name.sunday.full",
+        "source_string": "Sunday",
+        "translation": "Sunday",
+        "context": " -> fireworks.today.weekday_name.sunday.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.today.weekday_name.sunday.abbreviated",
+        "source_string": "Sun",
+        "translation": "Sun",
+        "context": " -> fireworks.today.weekday_name.sunday.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.today.weekday_name.monday.full",
+        "source_string": "Monday",
+        "translation": "Monday",
+        "context": " -> fireworks.today.weekday_name.monday.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.today.weekday_name.monday.abbreviated",
+        "source_string": "Mon",
+        "translation": "Mon",
+        "context": " -> fireworks.today.weekday_name.monday.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.today.weekday_name.tuesday.full",
+        "source_string": "Tuesday",
+        "translation": "Tuesday",
+        "context": " -> fireworks.today.weekday_name.tuesday.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.today.weekday_name.tuesday.abbreviated",
+        "source_string": "Tue",
+        "translation": "Tue",
+        "context": " -> fireworks.today.weekday_name.tuesday.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.today.weekday_name.wednesday.full",
+        "source_string": "Wednesday",
+        "translation": "Wednesday",
+        "context": " -> fireworks.today.weekday_name.wednesday.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.today.weekday_name.wednesday.abbreviated",
+        "source_string": "Wed",
+        "translation": "Wed",
+        "context": " -> fireworks.today.weekday_name.wednesday.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.today.weekday_name.thursday.full",
+        "source_string": "Thursday",
+        "translation": "Thursday",
+        "context": " -> fireworks.today.weekday_name.thursday.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.today.weekday_name.thursday.abbreviated",
+        "source_string": "Thu",
+        "translation": "Thu",
+        "context": " -> fireworks.today.weekday_name.thursday.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.today.weekday_name.friday.full",
+        "source_string": "Friday",
+        "translation": "Friday",
+        "context": " -> fireworks.today.weekday_name.friday.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.today.weekday_name.friday.abbreviated",
+        "source_string": "Fri",
+        "translation": "Fri",
+        "context": " -> fireworks.today.weekday_name.friday.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.today.weekday_name.saturday.full",
+        "source_string": "Saturday",
+        "translation": "Saturday",
+        "context": " -> fireworks.today.weekday_name.saturday.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.today.weekday_name.saturday.abbreviated",
+        "source_string": "Sat",
+        "translation": "Sat",
+        "context": " -> fireworks.today.weekday_name.saturday.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.general.clock",
+        "source_string": "%1$s:%3$s %4$s",
+        "translation": "%1$s:%3$s %4$s",
+        "context": " -> fireworks.general.clock",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.clock.suffix.am",
+        "source_string": "AM",
+        "translation": "AM",
+        "context": " -> fireworks.clock.suffix.am",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.clock.suffix.pm",
+        "source_string": "PM",
+        "translation": "PM",
+        "context": " -> fireworks.clock.suffix.pm",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.general.calendar",
+        "source_string": "%4$s %2$s%3$s, %8$s",
+        "translation": "%4$s %2$s%3$s, %8$s",
+        "context": " -> fireworks.general.calendar",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.day.ordinal_suffix.first",
+        "source_string": "st",
+        "translation": "st",
+        "context": " -> fireworks.calendar.day.ordinal_suffix.first",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.day.ordinal_suffix.second",
+        "source_string": "nd",
+        "translation": "nd",
+        "context": " -> fireworks.calendar.day.ordinal_suffix.second",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.day.ordinal_suffix.third",
+        "source_string": "rd",
+        "translation": "rd",
+        "context": " -> fireworks.calendar.day.ordinal_suffix.third",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.day.ordinal_suffix.other",
+        "source_string": "th",
+        "translation": "th",
+        "context": " -> fireworks.calendar.day.ordinal_suffix.other",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.january.full",
+        "source_string": "January",
+        "translation": "January",
+        "context": " -> fireworks.calendar.month_name.january.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.january.abbreviated",
+        "source_string": "Jan",
+        "translation": "Jan",
+        "context": " -> fireworks.calendar.month_name.january.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.february.full",
+        "source_string": "February",
+        "translation": "February",
+        "context": " -> fireworks.calendar.month_name.february.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.february.abbreviated",
+        "source_string": "Feb",
+        "translation": "Feb",
+        "context": " -> fireworks.calendar.month_name.february.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.march.full",
+        "source_string": "March",
+        "translation": "March",
+        "context": " -> fireworks.calendar.month_name.march.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.march.abbreviated",
+        "source_string": "Mar",
+        "translation": "Mar",
+        "context": " -> fireworks.calendar.month_name.march.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.april.full",
+        "source_string": "April",
+        "translation": "April",
+        "context": " -> fireworks.calendar.month_name.april.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.april.abbreviated",
+        "source_string": "Apr",
+        "translation": "Apr",
+        "context": " -> fireworks.calendar.month_name.april.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.may.full",
+        "source_string": "May",
+        "translation": "May",
+        "context": " -> fireworks.calendar.month_name.may.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.may.abbreviated",
+        "source_string": "May",
+        "translation": "May",
+        "context": " -> fireworks.calendar.month_name.may.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.june.full",
+        "source_string": "June",
+        "translation": "June",
+        "context": " -> fireworks.calendar.month_name.june.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.june.abbreviated",
+        "source_string": "Jun",
+        "translation": "Jun",
+        "context": " -> fireworks.calendar.month_name.june.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.july.full",
+        "source_string": "July",
+        "translation": "July",
+        "context": " -> fireworks.calendar.month_name.july.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.july.abbreviated",
+        "source_string": "Jul",
+        "translation": "Jul",
+        "context": " -> fireworks.calendar.month_name.july.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.august.full",
+        "source_string": "August",
+        "translation": "August",
+        "context": " -> fireworks.calendar.month_name.august.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.august.abbreviated",
+        "source_string": "Aug",
+        "translation": "Aug",
+        "context": " -> fireworks.calendar.month_name.august.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.september.full",
+        "source_string": "September",
+        "translation": "September",
+        "context": " -> fireworks.calendar.month_name.september.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.september.abbreviated",
+        "source_string": "Sep",
+        "translation": "Sep",
+        "context": " -> fireworks.calendar.month_name.september.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.october.full",
+        "source_string": "October",
+        "translation": "October",
+        "context": " -> fireworks.calendar.month_name.october.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.october.abbreviated",
+        "source_string": "Oct",
+        "translation": "Oct",
+        "context": " -> fireworks.calendar.month_name.october.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.november.full",
+        "source_string": "November",
+        "translation": "November",
+        "context": " -> fireworks.calendar.month_name.november.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.november.abbreviated",
+        "source_string": "Nov",
+        "translation": "Nov",
+        "context": " -> fireworks.calendar.month_name.november.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.december.full",
+        "source_string": "December",
+        "translation": "December",
+        "context": " -> fireworks.calendar.month_name.december.full",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.calendar.month_name.december.abbreviated",
+        "source_string": "Dec",
+        "translation": "Dec",
+        "context": " -> fireworks.calendar.month_name.december.abbreviated",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.settings.fireworks_display.title",
+        "source_string": "Fireworks Display",
+        "translation": "Fireworks Display",
+        "context": " -> fireworks.settings.fireworks_display.title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.settings.fireworks_display.description",
+        "source_string": null,
+        "translation": null,
+        "context": " -> fireworks.settings.fireworks_display.description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.settings.countdown.title",
+        "source_string": "Countdown",
+        "translation": "Countdown",
+        "context": " -> fireworks.settings.countdown.title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.settings.countdown.description",
+        "source_string": null,
+        "translation": null,
+        "context": " -> fireworks.settings.countdown.description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.settings.music.title",
+        "source_string": "Music",
+        "translation": "Music",
+        "context": " -> fireworks.settings.music.title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.settings.music.description",
+        "source_string": null,
+        "translation": null,
+        "context": " -> fireworks.settings.music.description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.settings.send_chat_message.title",
+        "source_string": "Send chat message",
+        "translation": "Send chat message",
+        "context": " -> fireworks.settings.send_chat_message.title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.settings.send_chat_message.description",
+        "source_string": null,
+        "translation": null,
+        "context": " -> fireworks.settings.send_chat_message.description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.settings.send_chat_message.never",
+        "source_string": "Never",
+        "translation": "Never",
+        "context": " -> fireworks.settings.send_chat_message.never",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.settings.send_chat_message.morning_and_evening",
+        "source_string": "Every 12 hours",
+        "translation": "Every 12 hours",
+        "context": " -> fireworks.settings.send_chat_message.morning_and_evening",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.settings.send_chat_message.everyday",
+        "source_string": "Every 24 hours",
+        "translation": "Every 24 hours",
+        "context": " -> fireworks.settings.send_chat_message.everyday",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.settings.show_actionbar.title",
+        "source_string": "Show actionbar",
+        "translation": "Show actionbar",
+        "context": " -> fireworks.settings.show_actionbar.title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.settings.show_actionbar.description",
+        "source_string": null,
+        "translation": null,
+        "context": " -> fireworks.settings.show_actionbar.description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.settings.show_actionbar.never",
+        "source_string": "Never",
+        "translation": "Never",
+        "context": " -> fireworks.settings.show_actionbar.never",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.settings.show_actionbar.hold_clock",
+        "source_string": "When holding a clock",
+        "translation": "When holding a clock",
+        "context": " -> fireworks.settings.show_actionbar.hold_clock",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "fireworks.settings.show_actionbar.always",
+        "source_string": "Always",
+        "translation": "Always",
+        "context": " -> fireworks.settings.show_actionbar.always",
+        "labels": null,
+        "max_length": null
+    }
+]
