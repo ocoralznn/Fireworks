@@ -40,7 +40,7 @@ $execute \
     as @a \
     if function \
         fireworks:display/actionbar/return.can_display/ \
-    run return run title \
+    run title \
         @s actionbar {\
             translate:"fireworks.actionbar",\
             fallback:"%1$s, %2$s | %3$s",\
