@@ -1,23 +1,16 @@
 $dialog show @s {\
     type:"minecraft:confirmation",\
     title: {\
-            translate:"screen.fireworks_options.title",\
-            fallback:"Fireworks"\
-        },\
-    body: {\
-        type:"minecraft:plain_message",\
-        contents: {\
-            translate:"screen.fireworks_options.description",\
-            fallback:"Choose what should happen as the year draws to a close in your world."\
-        }\
+        translate:"fireworks.title",\
+        fallback:"Fireworks"\
     },\
     inputs: [\
         {\
             type:"minecraft:single_option",\
             key:"display",\
             label: {\
-                translate:"options.fireworks_display",\
-                fallback:"Fireworks"\
+                translate:"fireworks.settings.fireworks_display.title",\
+                fallback:"Fireworks Display"\
             },\
             options: [\
                 {\
@@ -39,7 +32,7 @@ $dialog show @s {\
             type:"minecraft:single_option",\
             key:"countdown",\
             label: {\
-                translate:"options.countdown",\
+                translate:"fireworks.settings.countdown.title",\
                 fallback:"Countdown"\
             },\
             options: [\
@@ -62,7 +55,7 @@ $dialog show @s {\
             type:"minecraft:single_option",\
             key:"music",\
             label: {\
-                translate:"options.music",\
+                translate:"fireworks.settings.music.title",\
                 fallback:"Music"\
             },\
             options: [\
@@ -85,14 +78,14 @@ $dialog show @s {\
             type:"minecraft:single_option",\
             key:"send_chat_message",\
             label: {\
-                translate:"options.send_chat_message",\
+                translate:"fireworks.settings.send_chat_message.title",\
                 fallback:"Send chat message"\
             },\
             options: [\
                 {\
                     id:"0b",\
                     display: {\
-                        translate:"options.send_chat_message.never",\
+                        translate:"fireworks.settings.send_chat_message.never",\
                         fallback:"Never"\
                     },\
                     initial:$(never_send_message) \
@@ -100,7 +93,7 @@ $dialog show @s {\
                 {\
                     id:"1b",\
                     display: {\
-                        translate:"options.send_chat_message.morning_and_evening",\
+                        translate:"fireworks.settings.send_chat_message.morning_and_evening",\
                         fallback:"Every 12 hours"\
                     },\
                     initial:$(send_message_morning_and_evening) \
@@ -108,7 +101,7 @@ $dialog show @s {\
                 {\
                     id:"2b",\
                     display: {\
-                        translate:"options.send_chat_message.everyday",\
+                        translate:"fireworks.settings.send_chat_message.everyday",\
                         fallback:"Every 24 hours"\
                     },\
                     initial:$(send_message_everyday) \
@@ -119,14 +112,14 @@ $dialog show @s {\
             type:"minecraft:single_option",\
             key:"show_actionbar",\
             label: {\
-                translate:"options.show_actionbar",\
+                translate:"fireworks.settings.show_actionbar.title",\
                 fallback:"Show actionbar"\
             },\
             options: [\
                 {\
                     id:"0b",\
                     display: {\
-                        translate:"options.show_actionbar.never",\
+                        translate:"fireworks.settings.show_actionbar.never",\
                         fallback:"Never"\
                     },\
                     initial:$(never_show_actionbar) \
@@ -134,7 +127,7 @@ $dialog show @s {\
                 {\
                     id:"1b",\
                     display: {\
-                        translate:"options.show_actionbar.hold_clock",\
+                        translate:"fireworks.settings.show_actionbar.hold_clock",\
                         fallback:"When holding a clock"\
                     },\
                     initial:$(clock_show_actionbar) \
@@ -142,7 +135,7 @@ $dialog show @s {\
                 {\
                     id:"2b",\
                     display: {\
-                        translate:"options.show_actionbar.always",\
+                        translate:"fireworks.settings.show_actionbar.always",\
                         fallback:"Always"\
                     },\
                     initial:$(always_show_actionbar) \
