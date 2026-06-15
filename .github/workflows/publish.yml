@@ -11,10 +11,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Zip Datapack
-        run: zip -r Fireworks.zip . -x ".github/*" ".git/*" "*.yml" "README.md" "assets/*" # Package data files into .zip
+        run: zip -r Fireworks-DP_v${{ github.event.release.tag_name }}.zip . -x ".github/*" ".git/*" "*.yml" "README.md" "assets/*" # Package data files into .zip
 
       - name: Zip Resourcepack
-        run: zip -r Fireworks-translation.zip . -x ".github/*" ".git/*" "*.yml" "README.md" "data/*" "Fireworks.zip" # Package asset files into .zip
+        run: zip -r Fireworks-RP_v${{ github.event.release.tag_name }}.zip . -x ".github/*" ".git/*" "*.yml" "README.md" "data/*" "Fireworks-DP_v${{ github.event.release.tag_name }}.zip" # Package asset files into .zip
 
       - name: Upload to Modrinth
         uses: cloudnode-pro/modrinth-publish@v2
@@ -25,11 +25,11 @@ jobs:
           version: ${{ github.event.release.tag_name }}
           changelog: ${{ github.event.release.body }}
           files: |-
-            Fireworks.zip
-            Fireworks-translation.zip
-          primary-file: Fireworks.zip
-          file-types: Fireworks-translation.zip=optional-resource-pack
+            Fireworks-DP_v${{ github.event.release.tag_name }}.zip
+            Fireworks-RP_v${{ github.event.release.tag_name }}.zip
+          primary-file: Fireworks-DP_v${{ github.event.release.tag_name }}.zip
+          file-types: Fireworks-RP_v${{ github.event.release.tag_name }}.zip=optional-resource-pack
           loaders: "datapack"
           game-versions: |-
-            26.2-pre-2
+            26.2-rc-2
           channel: "release"
