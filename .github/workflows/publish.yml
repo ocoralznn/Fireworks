@@ -31,5 +31,5 @@ jobs:
           file-types: Fireworks-RP_v${{ github.event.release.tag_name }}.zip=optional-resource-pack
           loaders: "datapack"
           game-versions: |-
-            26.2-rc-2
+            26.2
           channel: "release"

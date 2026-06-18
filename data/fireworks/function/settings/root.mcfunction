@@ -10,7 +10,13 @@ $dialog show @s {\
             key:"display",\
             label: {\
                 translate:"fireworks.settings.fireworks_display.title",\
-                fallback:"Fireworks Display"\
+                fallback:"Fireworks Display",\
+                hover_event: {\
+		            action: "show_text",\
+		            value: {\
+                        translate: "fireworks.settings.fireworks_display.description"\
+                    }\
+	            }\
             },\
             options: [\
                 {\
@@ -33,7 +39,13 @@ $dialog show @s {\
             key:"countdown",\
             label: {\
                 translate:"fireworks.settings.countdown.title",\
-                fallback:"Countdown"\
+                fallback:"Countdown",\
+                hover_event: {\
+		            action: "show_text",\
+		            value: {\
+                        translate: "fireworks.settings.countdown.description"\
+                    }\
+	            }\
             },\
             options: [\
                 {\
@@ -56,7 +68,13 @@ $dialog show @s {\
             key:"music",\
             label: {\
                 translate:"fireworks.settings.music.title",\
-                fallback:"Music"\
+                fallback:"Music",\
+                hover_event: {\
+		            action: "show_text",\
+		            value: {\
+                        translate: "fireworks.settings.music.description"\
+                    }\
+	            }\
             },\
             options: [\
                 {\
@@ -79,7 +97,13 @@ $dialog show @s {\
             key:"send_chat_message",\
             label: {\
                 translate:"fireworks.settings.send_chat_message.title",\
-                fallback:"Send chat message"\
+                fallback:"Send chat message",\
+                hover_event: {\
+		            action: "show_text",\
+		            value: {\
+                        translate: "fireworks.settings.send_chat_message.description"\
+                    }\
+	            }\
             },\
             options: [\
                 {\
@@ -113,7 +137,13 @@ $dialog show @s {\
             key:"show_actionbar",\
             label: {\
                 translate:"fireworks.settings.show_actionbar.title",\
-                fallback:"Show actionbar"\
+                fallback:"Show actionbar",\
+                hover_event: {\
+		            action: "show_text",\
+		            value: {\
+                        translate: "fireworks.settings.show_actionbar.description"\
+                    }\
+	            }\
             },\
             options: [\
                 {\
