@@ -2,7 +2,7 @@
 execute \
     if score \
         $hours.current.military fireworks.operations matches 12..23 \
-            run return run data \
+            run data \
                 modify storage \
                     fireworks:definitions clock_suffix \
                         set value "PM"

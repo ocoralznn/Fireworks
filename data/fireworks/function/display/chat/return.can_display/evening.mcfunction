@@ -7,6 +7,6 @@ execute \
     if predicate {\
         condition:"minecraft:time_check",\
         clock:"minecraft:overworld",\
-        value:17,\
+        value:0,\
         period:20\
     } run return 1
