@@ -36,7 +36,7 @@ jobs:
           loaders: "datapack"
           game-versions: |-
             26.2
-          channel: "release"
+          channel: ${{ github.event.release.prerelease && 'beta' || 'release' }}
 
       - name: Send Discord notification
         run: |
