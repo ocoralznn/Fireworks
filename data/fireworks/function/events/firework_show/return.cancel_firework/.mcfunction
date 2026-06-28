@@ -1,11 +1,6 @@
 execute \
     if entity @a[\
-        distance=..64\
-    ] \
-    if entity @e[ \
-        type=minecraft:firework_rocket,\
-        limit=5, \
-        distance=..30 \
+        distance=..48\
     ] \
     if entity @e[\
         type=#fireworks:denies_fireworks,\
@@ -14,5 +9,5 @@ execute \
 
 execute \
     if score \
-        $hours.current.military fireworks.operations matches 5.. \
+        $hours.current.military fireworks.operations matches 4.. \
             run return 1
