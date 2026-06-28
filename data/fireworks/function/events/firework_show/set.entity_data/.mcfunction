@@ -4,6 +4,7 @@ data merge entity @s {\
 	],\
 	LifeTime:40,\
 	FireworksItem:{\
+		id: "minecraft:firework_rocket",\
 		components:{\
 			"minecraft:fireworks":{\
 				explosions:[\
@@ -30,3 +31,5 @@ execute store result entity @s FireworksItem.components."minecraft:fireworks".ex
 execute store result entity @s FireworksItem.components."minecraft:fireworks".explosions[].colors[1] int 1 run random value 0..16777215
 execute store result entity @s FireworksItem.components."minecraft:fireworks".explosions[].fade_colors[0] int 1 run random value 0..16777215
 execute store result entity @s FireworksItem.components."minecraft:fireworks".flight_duration byte 1 run random value 8..24
+
+spreadplayers ~ ~ 0 128 false @s

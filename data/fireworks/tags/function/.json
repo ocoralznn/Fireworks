@@ -1,7 +1,7 @@
 {
     "values": [
-        "#fireworks:operations/",
         "#fireworks:events/",
+        "#fireworks:operations/",
         "#fireworks:display/"
     ]
 }

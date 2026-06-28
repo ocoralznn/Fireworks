@@ -1,6 +1,5 @@
 {
     "values": [
-        "minecraft:firework_rocket",
         "minecraft:minecart",
         "minecraft:hopper_minecart",
         "minecraft:chest_minecart",
@@ -37,7 +36,6 @@
         "minecraft:item_frame",
         "minecraft:armor_stand",
         "minecraft:painting",
-        "minecraft:player",
         "minecraft:arrow",
         "minecraft:spectral_arrow",
         "minecraft:egg",
